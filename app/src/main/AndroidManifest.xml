@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".r_and_b_playlist_link"
+            android:exported="true" />
+        <activity
+            android:name=".r_and_b_song_link"
+            android:exported="true" />
+        <activity
+            android:name=".jazz_playlist_link"
+            android:exported="true" />
+        <activity
+            android:name=".jazz_song_link"
+            android:exported="true" />
+        <activity
+            android:name=".orchestra_playlist_link"
+            android:exported="true" />
+        <activity
+            android:name=".orchestra_song_link"
+            android:exported="true" />
+        <activity
+            android:name=".rock_playlist_link"
+            android:exported="true" />
+        <activity
+            android:name=".rock_song_link"
+            android:exported="true" />
+        <activity
+            android:name=".gospel_playlist_link"
+            android:exported="true" />
+        <activity
+            android:name=".pop_playlist_link"
+            android:exported="true" />
+        <activity
+            android:name=".pop_song_link"
+            android:exported="true" />
+
+
+
+
+
+
+        <activity
+            android:name=".AppleMusic_pop_song"
+            android:exported="true" />
+        <activity
+            android:name=".AppleMusic_pop_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_pop_song"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_pop_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_pop_song"
+            android:exported="true" />
+
+        <activity
+            android:name=".spotify_pop_playlist"
+            android:exported="true" />
+
+
+
+        <activity
+            android:name=".AppleMusic_gospel_song"
+            android:exported="true" />
+        <activity
+            android:name=".AppleMusic_gospel_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_gospel_song"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_gospel_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_gospel_song"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_gospel_playlist"
+            android:exported="true" />
+
+
+
+        <activity
+            android:name=".AppleMusic_rock_song"
+            android:exported="true" />
+        <activity
+            android:name=".AppleMusic_rock_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_rock_song"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_rock_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_rock_song"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_rock_playlist"
+            android:exported="true" />
+
+
+
+
+        <activity
+            android:name=".AppleMusic_orchestra_song"
+            android:exported="true" />
+        <activity
+            android:name=".AppleMusic_orchestra_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_orchestra_song"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_orchestra_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_orchestra_song"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_orchestra_playlist"
+            android:exported="true" />
+
+
+
+        <activity
+            android:name=".AppleMusic_jazz_song"
+            android:exported="true" />
+        <activity
+            android:name=".AppleMusic_jazz_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_jazz_song"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_jazz_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_jazz_song"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_jazz_playlist"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".AppleMusic_r_and_b_song"
+            android:exported="true" />
+        <activity
+            android:name=".AppleMusic_r_and_b_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_r_and_b_song"
+            android:exported="true" />
+        <activity
+            android:name=".youtube_r_and_b_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_r_and_b_song"
+            android:exported="true" />
+        <activity
+            android:name=".spotify_r_and_b_playlist"
+            android:exported="true" />
+
+
+
+
+
+
+        <activity
+            android:name=".r_and_b_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".r_and_b_song"
+            android:exported="true" />
+        <activity
+            android:name=".jazz_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".jazz_song"
+            android:exported="true" />
+        <activity
+            android:name=".orchestra_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".orchestra_song"
+            android:exported="true" />
+        <activity
+            android:name=".rock_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".rock_song"
+            android:exported="true" />
+        <activity
+            android:name=".gospel_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".gospel_song"
+            android:exported="true" />
+        <activity
+            android:name=".pop_song"
+            android:exported="true" />
+        <activity
+            android:name=".pop_playlist"
+            android:exported="true" />
+        <activity
+            android:name=".Rhythm_and_Blues"
+            android:exported="true" />
+        <activity
+            android:name=".Jazz"
+            android:exported="true" />
+        <activity
+            android:name=".Orchestra"
+            android:exported="true" />
+        <activity
+            android:name=".Rock"
+            android:exported="true" />
+        <activity
+            android:name=".Gospel"
+            android:exported="true" />
+        <activity
+            android:name=".Pop"
+            android:exported="true" />
+        <activity
+            android:name=".preference"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

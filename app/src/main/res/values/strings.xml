@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Holiday Music</string>
+    <string name="tvTitle">Welcome to Holiday Music!</string>
+    <string name="tvDescription">Trying to find the right holiday music selection but have no where to start.?
+                                 Welcome to Holiday Music, where it is our job to help you find the perfect playlist
+                                 or song for all your holiday needs. When you are ready, tap the button to get started.
+    </string>
+    <string name="tvButton">FIND HOLIDAY MUSIC</string>
+    <string name="tvTitle2">Select Your Genre</string>
+    <string-array name="tvGenres">
+        <item>Pop</item>
+        <item>Gospel</item>
+        <item>Rock</item>
+        <item>Orchestra</item>
+        <item>Jazz</item>
+        <item>Rhythm and Blues</item>
+    </string-array>
+
+    <string-array name="tvPlatform">
+        <item>Spotify</item>
+        <item>AppleMusic</item>
+        <item>YouTube</item>
+    </string-array>
+
+
+    <string name="tvSong">Song</string>
+    <string name="tvPlaylist">Playlist</string>
+    <string name="tvButton2">Generate Preferences</string>
+    <string name="popTitle">Welcome to Christmas Pop!</string>
+    <string name="tvSuggestions">View Suggestions</string>
+    <string name="gospelTitle">Welcome to Gospel Christmas!</string>
+    <string name="rockTitle">Welcome to Rock Christmas!</string>
+    <string name="orchestra">Welcome to Orchestra Christmas!</string>
+    <string name="jazzTitle">Welcome to Jazz Christmas!</string>
+    <string name="r_and_bTitle">Welcome to Rhythm and Blues Christmas!</string>
+    <string name="tvSampleSong">Song Samples</string>
+    <string name="tvSamplePlaylist">Playlist Samples</string>
+    <string name="tvSample1">Play Sample 1</string>
+    <string name="tvSample2">Play Sample 2</string>
+    <string name="btLink">Get Your Link</string>
+    <string name="tvPlatformTitle">Choose Your Platform</string>
+    <string name="btMusicLink">See Your Link</string>
+    <string name="tvThanks">Thank you for using Holiday Music! Please rate your experience from 1-10.</string>
+    <string name="tvHint">Please Rate From 1-10</string>
+    <string name="btAppLink">Visit Your Link</string>
+</resources>
