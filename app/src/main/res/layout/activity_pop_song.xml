@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.759" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/sleigh_ride_ron"
         android:layout_width="162dp"
         android:layout_height="157dp"
         android:src="@drawable/sleigh_ride_ronettes"

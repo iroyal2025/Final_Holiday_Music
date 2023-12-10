@@ -1,5 +1,7 @@
 package com.example.holidaymusic;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +26,8 @@ public class spotify_jazz_playlist extends AppCompatActivity {
             public void onClick(View v) {
                 rating = Double.parseDouble(rate.getText().toString());
                 result.setText("Thank you for your rating of " + rating + "!");
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://open.spotify.com/search/christmas%20jazz%20playlists/playlists")));
+
 
             }
         });

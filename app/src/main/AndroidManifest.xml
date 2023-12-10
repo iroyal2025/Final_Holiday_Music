@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
         <activity
             android:name=".r_and_b_playlist_link"
             android:exported="true" />
@@ -40,17 +52,14 @@
             android:name=".gospel_playlist_link"
             android:exported="true" />
         <activity
+            android:name=".gospel_song_link"
+            android:exported="true" />
+        <activity
             android:name=".pop_playlist_link"
             android:exported="true" />
         <activity
             android:name=".pop_song_link"
             android:exported="true" />
-
-
-
-
-
-
         <activity
             android:name=".AppleMusic_pop_song"
             android:exported="true" />
@@ -66,13 +75,9 @@
         <activity
             android:name=".spotify_pop_song"
             android:exported="true" />
-
         <activity
             android:name=".spotify_pop_playlist"
             android:exported="true" />
-
-
-
         <activity
             android:name=".AppleMusic_gospel_song"
             android:exported="true" />
@@ -91,9 +96,6 @@
         <activity
             android:name=".spotify_gospel_playlist"
             android:exported="true" />
-
-
-
         <activity
             android:name=".AppleMusic_rock_song"
             android:exported="true" />
@@ -112,10 +114,6 @@
         <activity
             android:name=".spotify_rock_playlist"
             android:exported="true" />
-
-
-
-
         <activity
             android:name=".AppleMusic_orchestra_song"
             android:exported="true" />
@@ -134,9 +132,6 @@
         <activity
             android:name=".spotify_orchestra_playlist"
             android:exported="true" />
-
-
-
         <activity
             android:name=".AppleMusic_jazz_song"
             android:exported="true" />
@@ -155,8 +150,6 @@
         <activity
             android:name=".spotify_jazz_playlist"
             android:exported="true" />
-
-
         <activity
             android:name=".AppleMusic_r_and_b_song"
             android:exported="true" />
@@ -175,12 +168,6 @@
         <activity
             android:name=".spotify_r_and_b_playlist"
             android:exported="true" />
-
-
-
-
-
-
         <activity
             android:name=".r_and_b_playlist"
             android:exported="true" />
